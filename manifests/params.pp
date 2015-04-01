@@ -82,7 +82,7 @@ class openlldp::params {
 
   case $::osfamily {
     'RedHat': { }
-    #'Debian': { }
+    'Debian': { }
     #'Suse': { }
     default: {
       fail("Unsupported platform: ${::osfamily}")
